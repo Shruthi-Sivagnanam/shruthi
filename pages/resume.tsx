@@ -10,7 +10,7 @@ export default function resume() {
           <div className="bg-gray-200 rounded-lg lg: col-span-1 p-3">
             <h5 className="my-3 text-xl font-bold">Education</h5>
             {education.map((edu) => (
-              <div>
+              <div key={edu.course}>
                 <h5 className="my-2 text-s font-bold">{edu.course}</h5>
                 <p className="text-sm">{edu.institute}</p>
                 <p className="text-sm">{edu.year}</p>
@@ -34,7 +34,7 @@ export default function resume() {
           <div className="bg-gray-200 rounded-lg lg: col-span-1 p-3">
             <h5 className="my-3 text-xl font-bold">Work Experience</h5>
             {work.map((w) => (
-              <div>
+              <div key={w.title}>
                 <h5 className="my-2 text-s font-bold">{w.title}</h5>
                 <p className="text-sm">{w.companyName}</p>
                 <p className="text-sm">{w.duration}</p>
