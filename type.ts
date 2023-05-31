@@ -1,5 +1,8 @@
 import { IconType } from "react-icons";
 
+export interface About {
+  des: string;
+}
 export interface Education {
   course: string;
   institute: string;

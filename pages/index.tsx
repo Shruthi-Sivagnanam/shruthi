@@ -1,6 +1,6 @@
 import HeadTag from "@/components/HeadTag";
 import ServicesCard from "@/components/ServicesCard";
-import { services } from "@/data";
+import { about, services } from "@/data";
 import {} from "react";
 
 const Home = () => {
@@ -12,10 +12,9 @@ const Home = () => {
         style={{ height: "75vh" }}
       >
         <p className="my-3 font-medium">
-          Hello Everyone! Happy to introduce myself! I'm Shruthi Sivagnanam,
-          currently pursing BE Degree[3rd year] in Computer Science. I have 2+
-          years of experience in web development. I have developed few desktop
-          application using Java Swing.
+          {about.map((a) => (
+            <>{a.des}</>
+          ))}
         </p>
         <div className="p-2">
           <h3 className="font-bold">What am I Doing</h3>
