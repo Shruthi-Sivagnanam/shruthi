@@ -13,7 +13,7 @@ const ProjectCard: FunctionComponent<{
           View Project
         </a>
         {webisteUrl && (
-          <a href={webisteUrl} className="text-red-300">
+          <a href={webisteUrl} className="text-red-300 animate-pulse">
             Vist Website
           </a>
         )}
