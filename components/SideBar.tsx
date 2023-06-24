@@ -1,6 +1,6 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-import { GiTie } from "react-icons/gi";
+
 const SideBar = () => {
   return (
     <div>
@@ -13,13 +13,21 @@ const SideBar = () => {
         <span className="text-blue-200">Shruthi </span>
         <span className="text-red-300">Sivagnanam </span>
       </h3>
-      <p className="px-2 py-2 my-2 bg-gray-200 rounded-full">Developer</p>
+      <p className="px-2 py-2 my-2 bg-gray-200 rounded-full animate-pulse">
+        Developer
+      </p>
 
       <div className="flex justify-around my-3 text-blue-200 md:w-full">
-        <a href="https://github.com/Shruthi-Sivagnanam">
+        <a
+          href="https://github.com/Shruthi-Sivagnanam "
+          className="hover:animate-bounce"
+        >
           <AiFillGithub className="w-8 h-8" />
         </a>
-        <a href="https://www.linkedin.com/in/shruthi-sivagnanam/">
+        <a
+          href="https://www.linkedin.com/in/shruthi-sivagnanam/"
+          className="hover:animate-bounce"
+        >
           <AiFillLinkedin className="w-8 h-8" />
         </a>
       </div>
@@ -36,7 +44,7 @@ const SideBar = () => {
         <p className="my-2">8778618606</p>
       </div>
       <button
-        className="bg-gradient-to-r from-red-300 to-blue-200 w-8/12 rounded-full py-2 my-2 text-white"
+        className="bg-gradient-to-r from-red-300 to-blue-200 w-8/12 rounded-full py-2 my-2 text-white hover:animate-bounce"
         onClick={() => window.open("mailto:shruthi.11012003@gmail.com")}
       >
         Email me

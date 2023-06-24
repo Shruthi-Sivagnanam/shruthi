@@ -15,7 +15,7 @@ import { BsCircleFill } from "react-icons/bs";
 
 export const about: About[] = [
   {
-    des: " Hello Everyone! Happy to introduce myself! I'm Shruthi Sivagnanam, currently pursing BE Degree[3rd year] in Computer Science. I have 2+ years of experience in web development. I have developed few desktop application using Java Swing.",
+    des: " I'm Shruthi Sivagnanam, currently pursing BE Degree [3rd year] in Computer Science. A budding web developer with 2+ years experiences. Looking forward to work with professionals.",
   },
 ];
 

@@ -11,7 +11,7 @@ const Home = () => {
         className="flex flex-col px-5 pt-1 overflow-y-scroll"
         style={{ height: "75vh" }}
       >
-        <p className="my-3 font-medium">
+        <p className="my-3 font-medium text-justify">
           {about.map((a) => (
             <>{a.des}</>
           ))}
