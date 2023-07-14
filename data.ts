@@ -30,17 +30,19 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Desktop Application",
     about:
-      "I can develop Desktop Application using <b>Java Swing</b>-<b>JDBC</b> ",
+      "Have a good experience on developing Desktop Application using <b>Java Swing</b>-<b>JDBC</b> ",
   },
   {
     Icon: AiOutlineMobile,
     title: "Android Application development",
-    about: "I can develop robust android application with <b>Java</b>",
+    about:
+      "Designed and developed few robust android application with <b>Java</b>",
   },
   {
     Icon: FaServer,
-    title: "Competitive Coder ",
-    about: "A daily problem solver in <b> GeeksforGeeks </b>",
+    title: "End-product",
+    about:
+      "Able to create an end product for <b>Machine learning and Deep learning models</b>",
   },
 ];
 
@@ -120,6 +122,11 @@ export const language: Skill[] = [
     skill: "Express",
     level: "80%",
   },
+  {
+    Icon: BsCircleFill,
+    skill: "Php",
+    level: "80%",
+  },
 ];
 export const tools: Skill[] = [
   {
@@ -127,6 +134,22 @@ export const tools: Skill[] = [
     skill: "VsCode",
     level: "90%",
   },
+  {
+    Icon: BsCircleFill,
+    skill: "Android Studio",
+    level: "90%",
+  },
+  {
+    Icon: BsCircleFill,
+    skill: "Jupyter Notebook",
+    level: "80%",
+  },
+  {
+    Icon: BsCircleFill,
+    skill: "Google Colab",
+    level: "80%",
+  },
+
   {
     Icon: BsCircleFill,
     skill: "Xampp",
