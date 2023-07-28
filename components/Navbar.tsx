@@ -48,7 +48,7 @@ export default function Navbar() {
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
-          name="Skill"
+          name="Skills"
           route="/skill"
         />
         <NavItem
