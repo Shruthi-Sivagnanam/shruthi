@@ -5,6 +5,7 @@ import {
   Achivements,
   Education,
   ProjectsWebiste,
+  Reference,
   Service,
   Skill,
   Work,
@@ -63,10 +64,18 @@ export const education: Education[] = [
 
 export const work: Work[] = [
   {
+    title: "Intern Student",
+    companyName: "NIT Trichy",
+    duration: "Present",
+    ip: "Internship",
+    des: "Deep Learning Projects (Rice pest detection and Fall armyworm detection)",
+  },
+  {
     title: "Full Stack Developer",
     companyName: "Exposys Data Labs",
     duration: "1 month",
     ip: "Internship",
+    des: "Mass Mail Dispatcher Project",
   },
 ];
 
@@ -78,6 +87,24 @@ export const achivements: Achivements[] = [
   {
     title: "International Conference in RMK College",
     des: "Design and Creation of an app for text and speech recognition of Sign Language - Sign Aloud",
+  },
+];
+
+export const reference: Reference[] = [
+  {
+    name: "Dr. S. Nalini",
+    des: "Assistant Professor",
+    insitute: "UCE BIT Campus",
+  },
+  {
+    name: "Dr. T. Mithila",
+    des: "Assistant Professor",
+    insitute: "UCE BIT Campus",
+  },
+  {
+    name: "Dr. U. Srinivasulu Reddy",
+    des: "Associate  Professor",
+    insitute: "NIT Trichy",
   },
 ];
 
@@ -164,6 +191,12 @@ export const tools: Skill[] = [
 
 export const projects_details: ProjectsWebiste[] = [
   {
+    title: "Sign Language Recognition System",
+    projectUrl: "https://github.com/Shruthi-Sivagnanam/sign-aloud",
+    webisteUrl: "",
+    des: "Under the guidance of DR. S. Nalini(Assistant Professor)",
+  },
+  {
     title: "Resume Builder",
     projectUrl: "https://github.com/Shruthi-Sivagnanam/resume-builder",
     webisteUrl:
@@ -189,9 +222,9 @@ export const projects_details: ProjectsWebiste[] = [
     des: "Associated with UCE BIT Campus",
   },
   {
-    title: "Sign Language Recognition System",
-    projectUrl: "https://github.com/Shruthi-Sivagnanam/sign-aloud",
-    webisteUrl: "",
-    des: "Under the guidance of DR. S. Nalini(Assistant Professor)",
+    title: "HTML, CSS, JS Editor",
+    projectUrl: "https://github.com/Shruthi-Sivagnanam/code-editor",
+    webisteUrl: "https://code-editor-10e9qfqi9-shruthi-sivagnanam.vercel.app/",
+    des: "Code editor developed with react.js",
   },
 ];

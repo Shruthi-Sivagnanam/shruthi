@@ -1,5 +1,5 @@
 import HeadTag from "@/components/HeadTag";
-import { achivements, education, work } from "@/data";
+import { achivements, education, reference, work } from "@/data";
 
 export default function resume() {
   return (
@@ -19,6 +19,19 @@ export default function resume() {
             ))}
           </div>
           <div className="bg-gray-200 rounded-lg lg: col-span-1 p-3">
+            <h5 className="my-3 text-xl font-bold">Work Experience</h5>
+            {work.map((w) => (
+              <div key={w.title}>
+                <h5 className="my-2 text-s font-bold">{w.title}</h5>
+                <p className="text-sm">{w.companyName}</p>
+                <p className="text-sm">{w.duration}</p>
+                <i className="text-sm">{w.ip}</i>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-5 my-2">
+          <div className="bg-gray-200 rounded-lg lg: col-span-1 p-3">
             <h5 className="my-3 text-xl font-bold">Achievements</h5>
             <div>
               {achivements.map((achivement) => (
@@ -29,18 +42,17 @@ export default function resume() {
               ))}
             </div>
           </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-5 my-2">
           <div className="bg-gray-200 rounded-lg lg: col-span-1 p-3">
-            <h5 className="my-3 text-xl font-bold">Work Experience</h5>
-            {work.map((w) => (
-              <div key={w.title}>
-                <h5 className="my-2 text-s font-bold">{w.title}</h5>
-                <p className="text-sm">{w.companyName}</p>
-                <p className="text-sm">{w.duration}</p>
-                <i className="text-sm">{w.ip}</i>
-              </div>
-            ))}
+            <h5 className="my-3 text-xl font-bold">References</h5>
+            <div>
+              {reference.map((ref) => (
+                <>
+                  <h5 className="my-2 text-s font-bold">{ref.name}</h5>
+                  <i className="text-sm">{ref.des}</i>
+                  <p className="text-sm">{ref.insitute}</p>
+                </>
+              ))}
+            </div>
           </div>
         </div>
       </div>

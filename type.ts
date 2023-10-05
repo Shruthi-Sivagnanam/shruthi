@@ -15,11 +15,18 @@ export interface Work {
   companyName: string;
   duration: string;
   ip: string;
+  des: string;
 }
 
 export interface Achivements {
   title: string;
   des: string;
+}
+
+export interface Reference {
+  name: string;
+  des: string;
+  insitute: string;
 }
 export interface Service {
   Icon: IconType;
