@@ -66,7 +66,7 @@ export const work: Work[] = [
   {
     title: "Intern Student",
     companyName: "NIT Trichy",
-    duration: "Present",
+    duration: "3 months",
     ip: "Internship",
     des: "Deep Learning Projects (Rice pest detection and Fall armyworm detection)",
   },
