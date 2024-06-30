@@ -5,7 +5,7 @@ const SideBar = () => {
   return (
     <div>
       <img
-        src="https://media.licdn.com/dms/image/C4E03AQGGs0lbB0Dn9Q/profile-displayphoto-shrink_800_800/0/1628409635517?e=2147483647&v=beta&t=qICBLSgLIZh2DEh7XgyxCKkLbViwCq9k2ytLZD-g6no"
+        src="https://media.licdn.com/dms/image/D5603AQHH93U3b1L0SQ/profile-displayphoto-shrink_800_800/0/1716400683796?e=1725494400&v=beta&t=XZ7nNW4IbV-dTK4BYPzTmgaNaRzIo2GheZwtncaIAHM"
         alt="myimg"
         className="w-32 h-32 mx-auto rounded-full"
       />

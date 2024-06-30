@@ -60,9 +60,29 @@ export const education: Education[] = [
     year: "2019-20",
     percentage: "92%",
   },
+  {
+    course: "10th Grade",
+    institute: "Sri Vageesha Vidyashram CBSE",
+    year: "2017-18",
+    percentage: "84.2%",
+  },
 ];
 
 export const work: Work[] = [
+  {
+    title: "member Techincal Staff - Frontend Developer",
+    companyName: "ZOHO Corporation Limited",
+    duration: "May 2023 - Present",
+    ip: "Member Techincal Staff",
+    des: "Working under finance department",
+  },
+  {
+    title: "Techincal Trainee - Frontend Developer",
+    companyName: "ZOHO Corporation Limited",
+    duration: "5 months",
+    ip: "Techincal Trainee",
+    des: "Working under finance department",
+  },
   {
     title: "Intern Student",
     companyName: "NIT Trichy",
