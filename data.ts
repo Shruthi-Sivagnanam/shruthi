@@ -70,7 +70,7 @@ export const education: Education[] = [
 
 export const work: Work[] = [
   {
-    title: "member Techincal Staff - Frontend Developer",
+    title: "Member Techincal Staff - Frontend Developer",
     companyName: "ZOHO Corporation Limited",
     duration: "May 2023 - Present",
     ip: "Member Techincal Staff",
