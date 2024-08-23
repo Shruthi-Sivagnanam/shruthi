@@ -1,6 +1,6 @@
 import Bar from "@/components/Bar";
 import HeadTag from "@/components/HeadTag";
-import { language, tools } from "@/data";
+import { framework, language, tools } from "@/data";
 
 export default function skill() {
   return (
@@ -13,6 +13,14 @@ export default function skill() {
             <div className="my-2">
               {language.map((lang) => (
                 <Bar data={lang} key={lang.skill} />
+              ))}
+            </div>
+          </div>
+          <div>
+            <h5 className="my-3 text-xl font-bold">Frameworks</h5>
+            <div className="my-2">
+              {framework.map((tech) => (
+                <Bar data={tech} key={tech.skill}></Bar>
               ))}
             </div>
           </div>

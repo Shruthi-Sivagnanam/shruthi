@@ -1,5 +1,5 @@
 import { FaServer } from "react-icons/fa";
-import { RiComputerLine } from "react-icons/ri";
+import { RiCommandFill, RiComputerLine } from "react-icons/ri";
 import {
   About,
   Achivements,
@@ -16,16 +16,22 @@ import { BsCircleFill } from "react-icons/bs";
 
 export const about: About[] = [
   {
-    des: " I'm Shruthi Sivagnanam, currently pursing BE Degree [4th year] in Computer Science. A budding web developer with 2+ years experiences. Looking forward to work with professionals.",
+    des: " I'm Shruthi Sivagnanam, currently working as Member Techincal Staff in ZOHO Corporation Private Limited. A passionate frontend developer with a sound knowledge of Javascript Framework.",
   },
 ];
 
 export const services: Service[] = [
   {
+    Icon: RiCommandFill,
+    title: "Frontend Development",
+    about:
+      "Experience on Javascript framework - <b> React, Ember, Angular and Vue </b>",
+  },
+  {
     Icon: MdDeveloperMode,
     title: "MERN Stack Development",
     about:
-      "I can develop MERN Stack website. <b> MongoDb-Express-React-Node </b> ",
+      "Full stack website with Javascript Framework and no-SQL database. <b> MongoDb-Express-React-Node </b> ",
   },
   {
     Icon: RiComputerLine,
@@ -71,17 +77,17 @@ export const education: Education[] = [
 export const work: Work[] = [
   {
     title: "Member Techincal Staff - Frontend Developer",
-    companyName: "ZOHO Corporation Limited",
-    duration: "May 2023 - Present",
+    companyName: "ZOHO Corporation Private Limited",
+    duration: "May 2024 - Present",
     ip: "Member Techincal Staff",
-    des: "Working under finance department",
+    des: "Zoho Loans - (Angular, Vue)",
   },
   {
     title: "Techincal Trainee - Frontend Developer",
-    companyName: "ZOHO Corporation Limited",
+    companyName: "ZOHO Corporation Private Limited",
     duration: "5 months",
     ip: "Techincal Trainee",
-    des: "Working under finance department",
+    des: "Detective and Zoho Loans - (Ember, Angular)",
   },
   {
     title: "Intern Student",
@@ -95,7 +101,7 @@ export const work: Work[] = [
     companyName: "Exposys Data Labs",
     duration: "1 month",
     ip: "Internship",
-    des: "Mass Mail Dispatcher Project",
+    des: "Mass Mail Dispatcher Project - (React)",
   },
 ];
 
@@ -131,6 +137,11 @@ export const reference: Reference[] = [
 export const language: Skill[] = [
   {
     Icon: BsCircleFill,
+    skill: "JavaScript",
+    level: "90%",
+  },
+  {
+    Icon: BsCircleFill,
     skill: "Java",
     level: "90%",
   },
@@ -149,9 +160,21 @@ export const language: Skill[] = [
     skill: "Python",
     level: "70%",
   },
+];
+export const framework: Skill[] = [
   {
     Icon: BsCircleFill,
-    skill: "JavaScript",
+    skill: "Angular",
+    level: "95%",
+  },
+  {
+    Icon: BsCircleFill,
+    skill: "Ember",
+    level: "88%",
+  },
+  {
+    Icon: BsCircleFill,
+    skill: "Vue",
     level: "90%",
   },
   {
@@ -167,11 +190,6 @@ export const language: Skill[] = [
   {
     Icon: BsCircleFill,
     skill: "Express",
-    level: "80%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "Php",
     level: "80%",
   },
 ];
@@ -205,7 +223,7 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     skill: "Git",
-    level: "80%",
+    level: "95%",
   },
 ];
 
