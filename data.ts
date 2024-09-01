@@ -1,5 +1,5 @@
 import { FaServer } from "react-icons/fa";
-import { RiCommandFill, RiComputerLine } from "react-icons/ri";
+import { RiCommandFill, RiComputerLine, RiPagesFill } from "react-icons/ri";
 import {
   About,
   Achivements,
@@ -16,7 +16,7 @@ import { BsCircleFill } from "react-icons/bs";
 
 export const about: About[] = [
   {
-    des: " I'm Shruthi Sivagnanam, currently working as Member Techincal Staff in ZOHO Corporation Private Limited. A passionate frontend developer with a sound knowledge of Javascript Framework.",
+    des: " I'm Shruthi Sivagnanam, currently working as Member Techincal Staff in Zoho Corporation Private Limited. A passionate frontend developer with a sound knowledge of Javascript Frameworks.",
   },
 ];
 
@@ -26,6 +26,11 @@ export const services: Service[] = [
     title: "Frontend Development",
     about:
       "Experience on Javascript framework - <b> React, Ember, Angular and Vue </b>",
+  },
+  {
+    Icon: RiPagesFill,
+    title: "Medium Articles",
+    about: "Write Medium articles about frontend topics at regular basis.",
   },
   {
     Icon: MdDeveloperMode,
@@ -77,14 +82,14 @@ export const education: Education[] = [
 export const work: Work[] = [
   {
     title: "Member Techincal Staff - Frontend Developer",
-    companyName: "ZOHO Corporation Private Limited",
+    companyName: "Zoho Corporation Private Limited",
     duration: "May 2024 - Present",
     ip: "Member Techincal Staff",
     des: "Zoho Loans - (Angular, Vue)",
   },
   {
     title: "Techincal Trainee - Frontend Developer",
-    companyName: "ZOHO Corporation Private Limited",
+    companyName: "Zoho Corporation Private Limited",
     duration: "5 months",
     ip: "Techincal Trainee",
     des: "Detective and Zoho Loans - (Ember, Angular)",

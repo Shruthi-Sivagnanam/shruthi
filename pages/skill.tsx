@@ -9,7 +9,7 @@ export default function skill() {
       <div className="p-3 overflow-y-scroll" style={{ height: "75vh" }}>
         <div className="grid md:grid-cols-2 gap-5 my-2">
           <div>
-            <h5 className="my-3 text-xl font-bold">Languages & Framework</h5>
+            <h5 className="my-3 text-xl font-bold">Languages</h5>
             <div className="my-2">
               {language.map((lang) => (
                 <Bar data={lang} key={lang.skill} />

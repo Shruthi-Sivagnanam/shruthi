@@ -1,6 +1,6 @@
 @tailwind base;
 * {
-  scrollbar-width: thin;
+  scrollbar-width: inherit !important;
   scrollbar-color: pink, white;
 }
 *::-webkit-scrollbar {

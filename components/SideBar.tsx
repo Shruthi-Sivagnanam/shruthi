@@ -1,4 +1,8 @@
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillMediumCircle,
+} from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 
 const SideBar = () => {
@@ -23,6 +27,12 @@ const SideBar = () => {
           className="hover:animate-bounce"
         >
           <AiFillGithub className="w-8 h-8" />
+        </a>
+        <a
+          href="https://medium.com/@shruthi.11012003"
+          className="hover:animate-bounce"
+        >
+          <AiFillMediumCircle className="w-8 h-8" />
         </a>
         <a
           href="https://www.linkedin.com/in/shruthi-sivagnanam/"
