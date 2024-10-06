@@ -1,3 +1,5 @@
+import Image from "next/image";
+import profileImg from "../public/profileImg.jpg";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -8,8 +10,8 @@ import { GoLocation } from "react-icons/go";
 const SideBar = () => {
   return (
     <div>
-      <img
-        src="https://media.licdn.com/dms/image/D5603AQHH93U3b1L0SQ/profile-displayphoto-shrink_800_800/0/1716400683796?e=1725494400&v=beta&t=XZ7nNW4IbV-dTK4BYPzTmgaNaRzIo2GheZwtncaIAHM"
+      <Image
+        src={profileImg}
         alt="myimg"
         className="w-32 h-32 mx-auto rounded-full"
       />
