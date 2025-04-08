@@ -7,107 +7,129 @@ import {
   ProjectsWebiste,
   Reference,
   Service,
-  Skill,
   Work,
 } from "./type";
 import { AiOutlineMobile } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { BsCircleFill } from "react-icons/bs";
+
+import CommandIcon from "@/public/icons/command.svg";
+import PagesIcon from "@/public/icons/pages.svg";
+import DeveloperIcon from "@/public/icons/developermode.svg";
+import DesktopIcon from "@/public/icons/desktop.svg";
+import MobileIcon from "@/public/icons/mobile.svg";
+import ServerIcon from "@/public/icons/server.svg";
+
+import JavaScriptIcon from "@/public/icons/javascript.svg"
+import CppIcon from "@/public/icons/cpp.svg";
+import CIcon from "@/public/icons/c.svg";
+import JavaIcon from "@/public/icons/java.svg";
+import PythonIcon from "@/public/icons/python.svg";
+
+import AngularIcon from "@/public/icons/angular.svg";
+import EmberIcon from "@/public/icons/ember.svg";
+import VueIcon from "@/public/icons/vue.svg";
+import ReactIcon from "@/public/icons/react.svg";
+import SolidIcon from "@/public/icons/solid.svg";
+import NodeIcon from "@/public/icons/node.svg";
+import TailwindIcon from "@/public/icons/tailwind.svg";
+import BootstrapIcon from "@/public/icons/bootstrap.svg";
+import MaterialIcon from "@/public/icons/material.svg";
+
+import VsCodeIcon from "@/public/icons/vscode.svg";
+import AndoridStudioIcon from "@/public/icons/androidstudio.svg";
+import GitIcon from "@/public/icons/git.svg";
+import JupyterIcon from "@/public/icons/jupyter.svg";
+import XamppIcon from "@/public/icons/xampp.svg";
 
 export const about: About[] = [
   {
-    des: " I'm Shruthi Sivagnanam, currently working as Member Techincal Staff in Zoho Corporation Private Limited. A passionate frontend developer with a sound knowledge of Javascript Frameworks.",
+    des: ` I'm Shruthi Sivagnanam, currently working as Member Techincal Staff in Zoho Corporation Private Limited.
+    A passionate frontend developer with a sound knowledge of Javascript Frameworks. 
+    Interested to know and explore the current technologies and trends in the IT world. I am a quick learner and a good team player.`,
   },
 ];
 
 export const services: Service[] = [
   {
-    Icon: RiCommandFill,
+    Icon: CommandIcon,
     title: "Frontend Development",
     about:
       "Experience on Javascript framework - <b> React, Ember, Angular and Vue </b>",
   },
   {
-    Icon: RiPagesFill,
+    Icon: PagesIcon,
     title: "Medium Articles",
     about: "Write Medium articles about frontend topics at regular basis.",
   },
   {
-    Icon: MdDeveloperMode,
+    Icon: DeveloperIcon,
     title: "MERN Stack Development",
     about:
       "Full stack website with Javascript Framework and no-SQL database. <b> MongoDb-Express-React-Node </b> ",
   },
   {
-    Icon: RiComputerLine,
+    Icon: DesktopIcon,
     title: "Desktop Application",
     about:
       "Have a good experience on developing Desktop Application using <b>Java Swing</b>-<b>JDBC</b> ",
   },
   {
-    Icon: AiOutlineMobile,
+    Icon: MobileIcon,
     title: "Android Application development",
     about:
       "Designed and developed few robust android application with <b>Java</b>",
   },
   {
-    Icon: FaServer,
+    Icon: ServerIcon,
     title: "End-product",
     about:
       "Able to create an end product for <b>Machine learning and Deep learning models</b>",
   },
 ];
 
-export const education: Education[] = [
+export const education_details: Education[] = [
   {
     course: "Computer Science And Engineering",
     institute: "University College of Engineering BIT Campus",
     year: "2020-24",
-    percentage: "85%",
+    percentage: "CGPA: 8.34",
   },
   {
     course: "12th Grade",
     institute: "Sri Vageesha Vidyashram CBSE",
     year: "2019-20",
-    percentage: "92%",
+    percentage: "462/500",
   },
   {
     course: "10th Grade",
     institute: "Sri Vageesha Vidyashram CBSE",
     year: "2017-18",
-    percentage: "84.2%",
+    percentage: "421/500",
   },
 ];
 
-export const work: Work[] = [
+export const work_details: Work[] = [
   {
     title: "Member Techincal Staff - Frontend Developer",
-    companyName: "Zoho Corporation Private Limited",
-    duration: "May 2024 - Present",
+    companyName: "Zoho Corporation Pvt Ltd",
+    duration: "2024",
     ip: "Member Techincal Staff",
-    des: "Zoho Loans - (Angular, Vue)",
+    des: "Zoho Loans - (Angular JS, Vue JS, Solid JS)",
   },
   {
     title: "Techincal Trainee - Frontend Developer",
-    companyName: "Zoho Corporation Private Limited",
-    duration: "5 months",
+    companyName: "Zoho Corporation Pvt Ltd",
+    duration: "2024",
     ip: "Techincal Trainee",
-    des: "Detective and Zoho Loans - (Ember, Angular)",
+    des: "Detective and Zoho Loans - (Ember JS, Angular JS)",
   },
   {
     title: "Intern Student",
     companyName: "NIT Trichy",
-    duration: "3 months",
+    duration: "2023",
     ip: "Internship",
     des: "Deep Learning Projects (Rice pest detection and Fall armyworm detection)",
-  },
-  {
-    title: "Full Stack Developer",
-    companyName: "Exposys Data Labs",
-    duration: "1 month",
-    ip: "Internship",
-    des: "Mass Mail Dispatcher Project - (React)",
-  },
+  }
 ];
 
 export const achivements: Achivements[] = [
@@ -139,98 +161,90 @@ export const reference: Reference[] = [
   },
 ];
 
-export const language: Skill[] = [
+export const programmingLanguage = [
   {
-    Icon: BsCircleFill,
-    skill: "JavaScript",
-    level: "90%",
+    iconName: JavaScriptIcon,
+    text: 'Javascript',
   },
   {
-    Icon: BsCircleFill,
-    skill: "Java",
-    level: "90%",
+    iconName: CppIcon,
+    text: 'Cpp',
   },
   {
-    Icon: BsCircleFill,
-    skill: "C",
-    level: "80%",
+    iconName: CIcon,
+    text: 'C',
   },
   {
-    Icon: BsCircleFill,
-    skill: "Cpp",
-    level: "70%",
+    iconName: JavaIcon,
+    text: 'Java',
   },
   {
-    Icon: BsCircleFill,
-    skill: "Python",
-    level: "70%",
-  },
-];
-export const framework: Skill[] = [
-  {
-    Icon: BsCircleFill,
-    skill: "Angular",
-    level: "95%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "Ember",
-    level: "88%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "Vue",
-    level: "90%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "React",
-    level: "80%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "Node",
-    level: "80%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "Express",
-    level: "80%",
-  },
-];
-export const tools: Skill[] = [
-  {
-    Icon: BsCircleFill,
-    skill: "VsCode",
-    level: "90%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "Android Studio",
-    level: "90%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "Jupyter Notebook",
-    level: "80%",
-  },
-  {
-    Icon: BsCircleFill,
-    skill: "Google Colab",
-    level: "80%",
-  },
+    iconName: PythonIcon,
+    text: 'Python',
+  }
+]
 
+export const frameworks = [
   {
-    Icon: BsCircleFill,
-    skill: "Xampp",
-    level: "80%",
+    iconName: AngularIcon,
+    text: 'Angular',
   },
   {
-    Icon: BsCircleFill,
-    skill: "Git",
-    level: "95%",
+    iconName: EmberIcon,
+    text: 'Ember',
   },
-];
+  {
+    iconName: VueIcon,
+    text: 'Vue',
+  },
+  {
+    iconName: ReactIcon,
+    text: 'React',
+  },
+  {
+    iconName: SolidIcon,
+    text: 'Solid',
+  },
+  {
+    iconName: NodeIcon,
+    text: 'Node',
+  },
+  {
+    iconName: TailwindIcon,
+    text: 'Tailwind',
+  },
+  {
+    iconName: BootstrapIcon,
+    text: 'Bootstrap',
+  },
+  {
+    iconName: MaterialIcon,
+    text: 'Material',
+  }
+]
+
+export const toolsAndIde = [
+  {
+    iconName: VsCodeIcon,
+    text: 'VsCode',
+  },
+  {
+    iconName: AndoridStudioIcon,
+    text: 'Andorid Studio',
+  },
+  {
+    iconName: GitIcon,
+    text: 'Git',
+  },
+  {
+    iconName: JupyterIcon,
+    text: 'Jupyter',
+  },
+  {
+    iconName: XamppIcon,
+    text: 'Xampp',
+  }
+]
 
 export const projects_details: ProjectsWebiste[] = [
   {

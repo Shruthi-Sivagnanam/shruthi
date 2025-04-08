@@ -6,6 +6,11 @@ import {
   AiFillMediumCircle,
 } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
+import LinkedInIcon from '@/public/icons/linkedin.svg';
+import MediumIcon from "@/public/icons/medium.svg";
+import GitHubIcon from "@/public/icons/github.svg";
+import TwitterIcon from "@/public/icons/twitter.svg";
+import LocationIcon from "@/public/icons/location.svg";
 
 const SideBar = () => {
   return (
@@ -25,22 +30,24 @@ const SideBar = () => {
 
       <div className="flex justify-around my-3 text-blue-200 md:w-full">
         <a
-          href="https://github.com/Shruthi-Sivagnanam "
-          className="hover:animate-bounce"
+          href="https://github.com/Shruthi-Sivagnanam"
         >
-          <AiFillGithub className="w-8 h-8" />
+          <GitHubIcon className="icon icon-2xl"/>
         </a>
-        <a
-          href="https://medium.com/@shruthi.11012003"
-          className="hover:animate-bounce"
+        <a 
+          href="https://x.com/Shruthi11012003"
         >
-          <AiFillMediumCircle className="w-8 h-8" />
+          <TwitterIcon className="icon icon-2xl"/>
         </a>
         <a
           href="https://www.linkedin.com/in/shruthi-sivagnanam/"
-          className="hover:animate-bounce"
         >
-          <AiFillLinkedin className="w-8 h-8" />
+          <LinkedInIcon className="icon icon-2xl"/>
+        </a>
+        <a
+          href="https://medium.com/@shruthi.11012003"
+        >
+          <MediumIcon className="icon icon-2xl"/>
         </a>
       </div>
 
@@ -49,14 +56,13 @@ const SideBar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center space-x-2">
-          <GoLocation />
+          <LocationIcon className="icon icon-lg" />
           <span>TamilNadu,India</span>
         </div>
         <p className="my-2">shruthi.11012003@gmail.com</p>
-        <p className="my-2">8778618606</p>
       </div>
       <button
-        className="bg-gradient-to-r from-red-300 to-blue-200 w-8/12 rounded-full py-2 my-2 text-white hover:animate-bounce"
+        className="bg-gradient-to-r from-red-300 to-blue-200 w-8/12 rounded-full py-2 my-2 text-white"
         onClick={() => window.open("mailto:shruthi.11012003@gmail.com")}
       >
         Email me

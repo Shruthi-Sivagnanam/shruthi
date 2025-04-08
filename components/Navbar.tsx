@@ -20,16 +20,16 @@ export default function Navbar() {
 
   useEffect(() => {
     if (pathname == "/") setActiveItem("About");
-    if (pathname == "/resume") setActiveItem("Resume");
+    if (pathname == "/education") setActiveItem("Education");
     if (pathname == "/projects") setActiveItem("Projects");
-    if (pathname == "/skill") setActiveItem("Skill");
-  }, []);
+    if (pathname == "/work") setActiveItem("Work");
+  }, [pathname]);
 
   const [activeItem, setActiveItem] = useState("");
 
   return (
-    <div className="flex justify-between space-x-3 py-3 mx-3">
-      <span className="text-xl text-red-200 border-b-4 border-red-200">
+    <div className="flex justify-between space-x-3 py-3 mx-3 items-center">
+      <span className="text-xl text-red-200 border-b-4 border-red-200 cursor-pointer">
         {activeItem}
       </span>
       <div className="flex text-xl text-blue-200 space-x-3">
@@ -39,17 +39,17 @@ export default function Navbar() {
           name="About"
           route="/"
         />
-        <NavItem
+        <NavItem 
           activeItem={activeItem}
           setActiveItem={setActiveItem}
-          name="Resume"
-          route="/resume"
+          name="Education"
+          route="/education"
         />
-        <NavItem
+        <NavItem 
           activeItem={activeItem}
           setActiveItem={setActiveItem}
-          name="Skills"
-          route="/skill"
+          name="Work"
+          route="/work"
         />
         <NavItem
           activeItem={activeItem}

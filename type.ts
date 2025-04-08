@@ -34,11 +34,6 @@ export interface Service {
   about: string;
 }
 
-export interface Skill {
-  Icon: IconType;
-  skill: string;
-  level: string;
-}
 export interface ProjectsWebiste {
   title: string;
   projectUrl: string;

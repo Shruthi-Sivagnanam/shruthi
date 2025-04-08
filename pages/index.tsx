@@ -1,7 +1,9 @@
 import HeadTag from "@/components/HeadTag";
 import ServicesCard from "@/components/ServicesCard";
-import { about, services } from "@/data";
+import { about, frameworks, programmingLanguage, services, toolsAndIde } from "@/data";
 import {} from "react";
+
+
 
 const Home = () => {
   return (
@@ -27,6 +29,51 @@ const Home = () => {
                 <ServicesCard services={service} key={service.title} />
               </div>
             ))}
+          </div>
+        </div>
+        <h3 className="font-bold pl-2">My Strengths</h3>
+        <div className="mb-2 pl-2">
+          <div>
+            <h5 className="my-3 font-bold">Languages</h5>
+            <div className="flex flex-wrap gap-2">
+            {
+              programmingLanguage.map((icon) => (
+                <div className="tooltip" key={icon.text}>
+                   <span className="tooltipText tw">{icon.text}</span>
+                    <icon.iconName className="icon-xl cursor-pointer tooltip"/>
+                </div>
+                
+              ))
+            }
+            </div>
+          </div>
+          <div>
+            <h5 className="my-3 font-bold">Frameworks And Libraries</h5>
+            <div className="my-2">
+            <div className="flex flex-wrap gap-2">
+              {
+                frameworks.map((icon) => (
+                  <div className="tooltip" key={icon.text}>
+                    <span className="tooltipText tw">{icon.text}</span>
+                    <icon.iconName className="icon-xl cursor-pointer tooltip"/>
+                  </div>
+                ))
+              }
+            </div>
+            </div>
+          </div>
+          <div>
+            <h5 className="my-3 font-bold">Tools and Software</h5>
+            <div className="my-2">
+              <div className="flex flex-wrap gap-2">
+                {toolsAndIde.map((icon) => (
+                  <div className="tooltip" key={icon.text}>
+                    <span className="tooltipText tw">{icon.text}</span>
+                    <icon.iconName className="icon-xl cursor-pointer tooltip"/>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
