@@ -1,5 +1,3 @@
-import { FaServer } from "react-icons/fa";
-import { RiCommandFill, RiComputerLine, RiPagesFill } from "react-icons/ri";
 import {
   About,
   Achivements,
@@ -9,14 +7,10 @@ import {
   Service,
   Work,
 } from "./type";
-import { AiOutlineMobile } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
 
 import CommandIcon from "@/public/icons/command.svg";
-import PagesIcon from "@/public/icons/pages.svg";
 import DeveloperIcon from "@/public/icons/developermode.svg";
 import DesktopIcon from "@/public/icons/desktop.svg";
-import MobileIcon from "@/public/icons/mobile.svg";
 import ServerIcon from "@/public/icons/server.svg";
 
 import JavaScriptIcon from "@/public/icons/javascript.svg"
@@ -45,7 +39,7 @@ export const about: About[] = [
   {
     des: ` I'm Shruthi Sivagnanam, currently working as Member Techincal Staff in Zoho Corporation Private Limited.
     A passionate frontend developer with a sound knowledge of Javascript Frameworks. 
-    Interested to know and explore the current technologies and trends in the IT world. I am a quick learner and a good team player.`,
+    Interested to know and explore the current technologies and trends in the IT world.`,
   },
 ];
 
@@ -54,12 +48,7 @@ export const services: Service[] = [
     Icon: CommandIcon,
     title: "Frontend Development",
     about:
-      "Experience on Javascript framework - <b> React, Ember, Angular and Vue </b>",
-  },
-  {
-    Icon: PagesIcon,
-    title: "Medium Articles",
-    about: "Write Medium articles about frontend topics at regular basis.",
+      "Experience on Javascript framework - <b> React, Ember, Angular, Vue, Solid and Next </b>",
   },
   {
     Icon: DeveloperIcon,
@@ -74,17 +63,11 @@ export const services: Service[] = [
       "Have a good experience on developing Desktop Application using <b>Java Swing</b>-<b>JDBC</b> ",
   },
   {
-    Icon: MobileIcon,
-    title: "Android Application development",
-    about:
-      "Designed and developed few robust android application with <b>Java</b>",
-  },
-  {
     Icon: ServerIcon,
     title: "End-product",
     about:
       "Able to create an end product for <b>Machine learning and Deep learning models</b>",
-  },
+  }
 ];
 
 export const education_details: Education[] = [

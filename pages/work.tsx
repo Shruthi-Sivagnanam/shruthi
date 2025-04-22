@@ -14,7 +14,7 @@ export default function work() {
               <div className="text-xl font-bold text-slate-900 flex gap-2 items-center">
                 { item.title }
                 {index === 0 && 
-                  <span className="text-xs px-1 bg-green-200 text-green-900">
+                  <span className="badge success text-sm">
                     Present
                   </span>}
               </div>

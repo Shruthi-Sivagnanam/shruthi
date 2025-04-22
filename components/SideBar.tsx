@@ -1,11 +1,5 @@
 import Image from "next/image";
 import profileImg from "../public/profileImg.jpg";
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillMediumCircle,
-} from "react-icons/ai";
-import { GoLocation } from "react-icons/go";
 import LinkedInIcon from '@/public/icons/linkedin.svg';
 import MediumIcon from "@/public/icons/medium.svg";
 import GitHubIcon from "@/public/icons/github.svg";
@@ -24,7 +18,7 @@ const SideBar = () => {
         <span className="text-blue-200">Shruthi </span>
         <span className="text-red-300">Sivagnanam </span>
       </h3>
-      <p className="px-2 py-2 my-2 bg-gray-200 rounded-full animate-pulse">
+      <p className="px-2 py-2 my-2 font-bold text-red-300 text-lg">
         Developer
       </p>
 
@@ -59,7 +53,6 @@ const SideBar = () => {
           <LocationIcon className="icon icon-lg" />
           <span>TamilNadu,India</span>
         </div>
-        <p className="my-2">shruthi.11012003@gmail.com</p>
       </div>
       <button
         className="bg-gradient-to-r from-red-300 to-blue-200 w-8/12 rounded-full py-2 my-2 text-white"

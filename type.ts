@@ -1,5 +1,3 @@
-import { IconType } from "react-icons";
-
 export interface About {
   des: string;
 }
@@ -29,7 +27,7 @@ export interface Reference {
   insitute: string;
 }
 export interface Service {
-  Icon: IconType;
+  Icon: any;
   title: string;
   about: string;
 }

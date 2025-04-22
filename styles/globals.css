@@ -28,6 +28,14 @@ body {
   width: 20px;
   height: 20px;
 }
+.icon-xxs {
+  width: 8px;
+  height: 8px;
+}
+.icon-xs {
+  width: 12px;
+  height: 12px;
+}
 .icon-sm {
   width: 16px;
   height: 16px;
@@ -80,4 +88,33 @@ body {
 .tooltip:hover .tooltipText{
   opacity: 1;
   transform: translateY(-10px);
+}
+
+.badge {
+  padding: 0px 10px;
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+}
+
+.success {
+  background-color: #e6ffed;
+  color: #1e7b3d;
+  svg {
+    fill: #1e7b3d;
+  }
+}
+
+.info {
+  background-color: #ebf5ff;
+  color: #0068d1;
+  svg {
+    fill: #0068d1;
+  }
+}
+
+.box-container {
+  background-color: #ffffff;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px pink;
+  
 }
